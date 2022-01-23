@@ -164,14 +164,6 @@
   animation-duration: 1.4s;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .5}
-  to {opacity: 2}
-}
-
-@keyframes fade {
-  from {opacity: .5}
-  to {opacity: 2}
 }
 /* body {
   font-family: Arial, sans-serif;
@@ -195,3 +187,12 @@ caption {
   font-weight: bold;
   padding-top: 5px;
 }
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
