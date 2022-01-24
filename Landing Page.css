@@ -68,6 +68,10 @@
 
 * {box-sizing:border-box}
 
+h2{
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -224,6 +228,7 @@ logo-slider {
 		top: 0;
 		background: linear-gradient(to right, white, rgba(white, 0) 80px, rgba(white, 0) calc(100% - 80px), white);
 	}
+
   
   @media (max-width:900px) {
     --image-size: #{$min-image-size};

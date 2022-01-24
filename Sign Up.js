@@ -1,20 +1,16 @@
-$(".login-form").hide();
-$(".login").css("background", "none");
 
-$(".login").click(function () {
-  $(".signup-form").hide();
-  $(".login-form").show();
-  $(".signup").css("background", "none");
-  $(".login").css("background", "#fff");
-});
+        function validate() {
+  
+            var user = document.getElementById("e").value;
+            var user2 = document.getElementById("e");
+            var re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            if (re.test(user)) {
+                alert("done");
+                return true;
+            }
+            else {
+                user2.style.border = "red solid 3px";
+                return false;
+            }
+        }
 
-$(".signup").click(function () {
-  $(".signup-form").show();
-  $(".login-form").hide();
-  $(".login").css("background", "none");
-  $(".signup").css("background", "#fff");
-});
-
-$(".btn").click(function () {
-  $(".input").val("");
-});
