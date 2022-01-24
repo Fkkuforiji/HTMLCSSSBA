@@ -26,21 +26,21 @@ Have at least 3 pages, keep the grid system consistent as much as possible
 -All Books
 -Sign Up
 Use at least 10 different HTML tags
--<a href>
--<div>
--<button>
--<br>
--<a>
--<span>
--<img>
--<link>
--<i>
--<h1>
--<iframe>
+-<a href
+-<div
+-<button
+-<br
+-<a
+-<span
+-<img
+-<link
+-<i
+-<h1 and <h2
+-<iframe
 
 
 --All Books Page--
--<table>
+-<table
 The All Books page contains the same logo and nav bar. 
 
 This page contains a table showing information for 8 books. The table includes the book title, author, and assigned genre.
