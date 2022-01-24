@@ -1,12 +1,14 @@
 # HTMLCSSSBA
-The title of the wesbite is Stalls || Ignoble (Stalls Or Ignoble) 
-The intention of the site is to appear as a digital library where books from my personal digital 
+
+Github link: github.com/fkkuforiji
+The title of the wesbite is Stalls || Ignoble (Stalls Or Ignoble)
+The intention of the site is to appear as a digital library where books from my personal digital
 where all the books can be downloaded. All books that appear are books I've either read, or want to
 read, like my own Goodreads website.
 --Landing Page--
 There is a logo at the top featuring a crown.
 The logo has a link embedded in it that routes to the Landing Page/Home Page
-There is a navigation bar with a dropdown menu labled Menu featuring selections for All Books, and Sign Up. 
+There is a navigation bar with a dropdown menu labled Menu featuring selections for All Books, and Sign Up.
 The All Books selection routes to a page displaying a table of all books available for download.
 The Sign Up selection routes to a page where users can sign up for the website.
 
@@ -38,14 +40,13 @@ Use at least 10 different HTML tags
 -<h1 and <h2
 -<iframe
 
-
 --All Books Page--
 -<table
-The All Books page contains the same logo and nav bar. 
+The All Books page contains the same logo and nav bar.
 
 This page contains a table showing information for 8 books. The table includes the book title, author, and assigned genre.
 
 --Sign Up Page--
 
 This page hold two forms. One form is to register and the other is to Log In.
-The register form has a validation in the Sign Up Javascript file with an Alert stating "Done" when a user signs up. 
+The register form has a validation in the Sign Up Javascript file with an Alert stating "Done" when a user signs up.
